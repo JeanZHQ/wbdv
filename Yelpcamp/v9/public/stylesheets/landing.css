@@ -1,0 +1,12 @@
+body{
+	background-color: #000;
+}
+
+#landing-header {
+	z-index:1;
+	/* x和y表示上下左右，z表示前后 */
+	position:relative;
+	text-align:center;
+	padding-top: 40vh;
+	/*看上去像上下的中间*/
+}

@@ -1,0 +1,15 @@
+<%-include("./partials/header") %>
+<h1>
+	Sign Up form
+</h1>
+<form action="/register" method="POST"><!-- It describe the action the form will do	 -->
+	<input type="text" name ="username" placeholder="username">
+	<input type="password" name = "password" placeholder="password">
+	<button>
+		Sign up
+	</button>
+</form>
+
+<li><a class = "btn btn-success" href="/login">Already have an account? Log in!</a></li>
+
+<%-include("./partials/footer") %>
